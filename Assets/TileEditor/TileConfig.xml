@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Library path="/TileEditor/Imported">
+		<Category name="Brick">
+			<Item id="brick_1" asset="x.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="brick_2" asset="y.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="brick_3" asset="z.png" cube="true" pivotX="0" pivotY="0" />
+		</Category>
+		<Category name="Flag">
+			<Item id="flag_1" asset="a.png" cube="true" pivotX="0" pivotY="0" />
+		</Category>
+	</Library>
+	<MAP id="tutorial1">
+	</MAP>
+</Config>

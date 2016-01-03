@@ -1,0 +1,65 @@
+ManifestFileVersion: 0
+CRC: 3995727048
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 551676b40816436dbe044bf33284cf38
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 872a311b64454aef329fe41e0f0aed1b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3ba6b4007043f48b8ad48b52c741a591, type: 3}
+- Class: 114
+  Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -405508275, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 575553740, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -1200242548, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 1367256648, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 2109663825, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7099ca657b50a4e5582ae51e3740378f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 75245f7c092914902abb4e70cd90e651, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6cd7091f23af64e66aa55b7e0d3b8f36, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8c34c9ca9dbbe44f8b78d287593dab92, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 02e32d540aea54e1eb19817e36b25132, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Bundle/Prefab/uiTile.prefab
+- Assets/Bundle/Prefab/uiTerrain.prefab
+- Assets/Bundle/Prefab/uiToolbar.prefab
+- Assets/Bundle/Prefab/uiNew.prefab
+- Assets/Bundle/Prefab/uiOverlay.prefab
+- Assets/Bundle/Prefab/uiView.prefab
+Dependencies: []

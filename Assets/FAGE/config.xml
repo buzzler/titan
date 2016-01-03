@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" url="http://file.unityscene.com/titan/config.xml">
+	<BundleRoot>
+	  <Bundle id="fage" dynamic="false" ios="http://file.unityscene.com/titan/iOS/fage.unity3d" android="http://file.unityscene.com/titan/Android/fage.unity3d" version="1" />
+	  <Bundle id="editor" dynamic="false" ios="http://file.unityscene.com/titan/iOS/editor.unity3d" android="http://file.unityscene.com/titan/Android/editor.unity3d" version="1" />
+	</BundleRoot>
+	<UIRoot>
+	  <UITransition id="trans.popin" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" scaleX="0" scaleY="0" scaleZ="0" time="0.5" delay="0" easetype="easeOutElastic" />
+	  <UITransition id="trans.popout" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" scaleX="0" scaleY="0" scaleZ="0" time="0.5" delay="0" easetype="easeInBack" />
+	  <UIDetail id="UIToolbar_LP" asset="assets/bundle/prefab/uiToolbar.prefab" bundle="editor" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" scaleX="1" scaleY="1" scaleZ="1" onInstantiate="trans.popin" onDestroy="trans.popout" onResume="trans.popin" onPause="trans.popout" onSwitchIn="trans.popin" onSwitchOut="trans.popout" />
+	  <UIDetail id="UINew_LP" asset="assets/bundle/prefab/uiNew.prefab" bundle="editor" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" scaleX="1" scaleY="1" scaleZ="1" onInstantiate="trans.popin" onDestroy="trans.popout" onResume="trans.popin" onPause="trans.popout" onSwitchIn="trans.popin" onSwitchOut="trans.popout" />
+	  <UIDetail id="UITile_LP" asset="assets/bundle/prefab/uiTile.prefab" bundle="editor" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" scaleX="1" scaleY="1" scaleZ="1" onInstantiate="trans.popin" onDestroy="trans.popout" onResume="trans.popin" onPause="trans.popout" onSwitchIn="trans.popin" onSwitchOut="trans.popout" />
+	  <UIDetail id="UIOverlay_LP" asset="assets/bundle/prefab/uiOverlay.prefab" bundle="editor" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" scaleX="1" scaleY="1" scaleZ="1" onInstantiate="trans.popin" onDestroy="trans.popout" onResume="trans.popin" onPause="trans.popout" onSwitchIn="trans.popin" onSwitchOut="trans.popout" />
+	  <UIDetail id="UITerrain_LP" asset="assets/bundle/prefab/uiTerrain.prefab" bundle="editor" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" scaleX="1" scaleY="1" scaleZ="1" onInstantiate="trans.popin" onDestroy="trans.popout" onResume="trans.popin" onPause="trans.popout" onSwitchIn="trans.popin" onSwitchOut="trans.popout" />
+	  <UIDetail id="UIView_LP" asset="assets/bundle/prefab/uiView.prefab" bundle="editor" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" scaleX="1" scaleY="1" scaleZ="1" onInstantiate="trans.popin" onDestroy="trans.popout" onResume="trans.popin" onPause="trans.popout" onSwitchIn="trans.popin" onSwitchOut="trans.popout" />
+	  <UISet id="UIToolbar" onPortrait="UIToolbar_LP" onLandscape="UIToolbar_LP" />
+	  <UISet id="UINew" onPortrait="UINew_LP" onLandscape="UINew_LP" />
+	  <UISet id="UITile" onPortrait="UITile_LP" onLandscape="UITile_LP" />
+	  <UISet id="UIOverlay" onPortrait="UIOverlay_LP" onLandscape="UIOverlay_LP" />
+	  <UISet id="UITerrain" onPortrait="UITerrain_LP" onLandscape="UITerrain_LP" />
+	  <UISet id="UIView" onPortrait="UIView_LP" onLandscape="UIView_LP" />
+	  <UICurtain id="blackout" asset="assets/bundle/prefab/blackout.prefab" bundle="fage" />
+	  <UICurtain id="whiteout" asset="assets/bundle/prefab/whiteout.prefab" bundle="fage" />
+	</UIRoot>
+	<AudioRoot id="root" volume="1">
+	  <AudioXML id="background" volume="1" channels="1" />
+	  <AudioXML id="effect" volume="1" channels="0">
+	  	<AudioXML id="coin" volume="1" channels="1"/>
+	  	<AudioXML id="voice" volume="1" channels="1"/>
+	  	<AudioXML id="fx" volume="1" channels="1"/>
+	  	<AudioXML id="score" volume="1" channels="1"/>
+	  </AudioXML>
+	</AudioRoot>
+</Config>
