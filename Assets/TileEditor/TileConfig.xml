@@ -1,15 +1,250 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Library path="/TileEditor/Imported">
-		<Category name="Brick">
-			<Item id="brick_1" asset="x.png" cube="true" pivotX="0" pivotY="0" />
-			<Item id="brick_2" asset="y.png" cube="true" pivotX="0" pivotY="0" />
-			<Item id="brick_3" asset="z.png" cube="true" pivotX="0" pivotY="0" />
+		<Category name="c_brick">
+			<Item id="i_brick_1" asset="ISO_Tile_Brick_Brick_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_brick_2" asset="ISO_Tile_Brick_Brick_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_brick_3" asset="ISO_Tile_Brick_Brick_03.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_brick_4" asset="ISO_Tile_Brick_Brick_04.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_brick_5" asset="ISO_Tile_Brick_SandStone_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_brick_6" asset="ISO_Tile_Brick_Snow_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_brick_7" asset="ISO_Tile_Brick_Stone_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_brick_8" asset="ISO_Tile_Brick_Stone_01_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_brick_9" asset="ISO_Tile_Brick_Stone_01_03.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_brick_10" asset="ISO_Tile_Brick_Stone_01_04.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_brick_11" asset="ISO_Tile_Brick_Stone_01_05.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_brick_12" asset="ISO_Tile_Brick_Stone_02_01.png" cube="true" pivotX="0" pivotY="0" />
 		</Category>
-		<Category name="Flag">
-			<Item id="flag_1" asset="a.png" cube="true" pivotX="0" pivotY="0" />
+		<Category name="c_dirt">
+			<Item id="i_dirt_1" asset="ISO_Tile_Dirt_01_ToSnow_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_dirt_2" asset="ISO_Tile_Dirt_01_ToSnow_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_dirt_3" asset="ISO_Tile_Dirt_01_ToStone_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_dirt_4" asset="ISO_Tile_Dirt_01_ToStone_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_dirt_5" asset="ISO_Tile_Dirt_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_dirt_6" asset="ISO_Tile_Dirt_02_ToStone_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_dirt_7" asset="ISO_Tile_Dirt_02_ToStone_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_dirt_8" asset="ISO_Tile_Dirt_02.png" cube="true" pivotX="0" pivotY="0" />
+		</Category>
+		<Category name="c_grass">
+			<Item id="i_grass_1" asset="ISO_Tile_Dirt_01_Grass_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_grass_2" asset="ISO_Tile_Dirt_01_GrassPatch_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_grass_3" asset="ISO_Tile_Dirt_01_GrassPatch_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_grass_4" asset="ISO_Tile_Dirt_01_GrassPatch_03.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_grass_5" asset="ISO_Tile_Dirt_01_GrassPath_3Cross_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_grass_6" asset="ISO_Tile_Dirt_01_GrassPath_3Cross_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_grass_7" asset="ISO_Tile_Dirt_01_GrassPath_3Cross_03.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_grass_8" asset="ISO_Tile_Dirt_01_GrassPath_3Cross_04.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_grass_9" asset="ISO_Tile_Dirt_01_GrassPath_4Cross.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_grass_10" asset="ISO_Tile_Dirt_01_GrassPath_Curve_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_grass_11" asset="ISO_Tile_Dirt_01_GrassPath_Curve_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_grass_12" asset="ISO_Tile_Dirt_01_GrassPath_Curve_03.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_grass_13" asset="ISO_Tile_Dirt_01_GrassPath_Curve_04.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_grass_14" asset="ISO_Tile_Dirt_01_GrassPath_End_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_grass_15" asset="ISO_Tile_Dirt_01_GrassPath_End_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_grass_16" asset="ISO_Tile_Dirt_01_GrassPath_End_03.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_grass_17" asset="ISO_Tile_Dirt_01_GrassPath_End_04.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_grass_18" asset="ISO_Tile_Dirt_01_GrassPath_Single.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_grass_19" asset="ISO_Tile_Dirt_01_GrassPath_Straight_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_grass_20" asset="ISO_Tile_Dirt_01_GrassPath_Straight_02.png" cube="true" pivotX="0" pivotY="0" />
+		</Category>
+		<Category name="lava">
+			<Item id="i_lava_1" asset="ISO_Tile_Lava_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_lava_2" asset="ISO_Tile_Lava_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_lava_3" asset="ISO_Tile_LavaCracks_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_lava_4" asset="ISO_Tile_LavaStone_01.png" cube="true" pivotX="0" pivotY="0" />
+		</Category>
+		<Category name="low">
+			<Item id="i_low_1" asset="ISO_LowTile_Dirt_01.png" cube="false" pivotX="0" pivotY="-19" />
+			<Item id="i_low_2" asset="ISO_LowTile_DirtToStoneTransition_01.png" cube="false" pivotX="0" pivotY="-19" />
+			<Item id="i_low_3" asset="ISO_LowTile_DirtToStoneTransition_02.png" cube="false" pivotX="0" pivotY="-19" />
+			<Item id="i_low_4" asset="ISO_LowTile_Riverbed_01.png" cube="false" pivotX="0" pivotY="-19" />
+			<Item id="i_low_5" asset="ISO_LowTile_Riverbed_02.png" cube="false" pivotX="0" pivotY="-19" />
+			<Item id="i_low_6" asset="ISO_LowTile_Riverbed_03.png" cube="false" pivotX="0" pivotY="-19" />
+			<Item id="i_low_7" asset="ISO_LowTile_Riverbed_04.png" cube="false" pivotX="0" pivotY="-19" />
+			<Item id="i_low_8" asset="ISO_LowTile_Sand_01.png" cube="false" pivotX="0" pivotY="-19" />
+			<Item id="i_low_9" asset="ISO_LowTile_Sand_02.png" cube="false" pivotX="0" pivotY="-19" />
+			<Item id="i_low_10" asset="ISO_LowTile_Sand_03.png" cube="false" pivotX="0" pivotY="-19" />
+			<Item id="i_low_11" asset="ISO_LowTile_Stone_01.png" cube="false" pivotX="0" pivotY="-19" />
+			<Item id="i_low_12" asset="ISO_LowTile_Stone_02.png" cube="false" pivotX="0" pivotY="-19" />
+			<Item id="i_low_13" asset="ISO_LowTile_Stone_03.png" cube="false" pivotX="0" pivotY="-19" />
+		</Category>
+		<Category name="overlay">
+			<Item id="i_overlay_1" asset="ISO_Overlay_Cracks_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_2" asset="ISO_Overlay_Cracks_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_3" asset="ISO_Overlay_Glow_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_4" asset="ISO_Overlay_Glow_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_5" asset="ISO_Overlay_Grass_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_6" asset="ISO_Overlay_Grass_Half_H_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_7" asset="ISO_Overlay_Grass_Half_H_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_8" asset="ISO_Overlay_Grass_Half_V_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_9" asset="ISO_Overlay_Grass_Half_V_02 - Kopie.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_10" asset="ISO_Overlay_Grass_Patch__H_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_11" asset="ISO_Overlay_Grass_Patch__H_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_12" asset="ISO_Overlay_Grass_Patch__V_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_13" asset="ISO_Overlay_Grass_Patch__V_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_14" asset="ISO_Overlay_Grass_Patch_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_15" asset="ISO_Overlay_Grass_Patch_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_16" asset="ISO_Overlay_Grass_Patch_03.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_17" asset="ISO_Overlay_Grass_Patch_02_H_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_18" asset="ISO_Overlay_Grass_Patch_02_H_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_19" asset="ISO_Overlay_Grass_Patch_02_V_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_20" asset="ISO_Overlay_Grass_Patch_02_V_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_21" asset="ISO_Overlay_Grass_Patch_03_H_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_22" asset="ISO_Overlay_Grass_Patch_03_H_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_23" asset="ISO_Overlay_Grass_Patch_03_V_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_24" asset="ISO_Overlay_Grass_Patch_03_V_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_25" asset="ISO_Overlay_Path_Cross.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_26" asset="ISO_Overlay_Path_Cross3_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_27" asset="ISO_Overlay_Path_Cross3_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_28" asset="ISO_Overlay_Path_Cross3_03.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_29" asset="ISO_Overlay_Path_Cross3_04.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_30" asset="ISO_Overlay_Path_Curve_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_31" asset="ISO_Overlay_Path_Curve_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_32" asset="ISO_Overlay_Path_Curve_03.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_33" asset="ISO_Overlay_Path_Curve_04.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_34" asset="ISO_Overlay_Path_End_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_35" asset="ISO_Overlay_Path_End_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_36" asset="ISO_Overlay_Path_End_03.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_37" asset="ISO_Overlay_Path_End_04.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_38" asset="ISO_Overlay_Path_Single.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_39" asset="ISO_Overlay_Path_Straight_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_40" asset="ISO_Overlay_Path_Straight_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_41" asset="ISO_Overlay_Shore_Corner_D.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_42" asset="ISO_Overlay_Shore_Corner_L.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_43" asset="ISO_Overlay_Shore_Corner_R.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_44" asset="ISO_Overlay_Shore_Corner_RU.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_45" asset="ISO_Overlay_Shore_Corner_U.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_46" asset="ISO_Overlay_Shore_Straight_LD.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_47" asset="ISO_Overlay_Shore_Straight_LU.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_48" asset="ISO_Overlay_Shore_Straight_RD.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_49" asset="ISO_Overlay_Shore_Straight_RU.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_50" asset="ISO_Overlay_StonePieces_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_51" asset="ISO_Overlay_StonePieces_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_52" asset="ISO_Overlay_StonePieces_01_Half_H_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_53" asset="ISO_Overlay_StonePieces_01_Half_H_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_54" asset="ISO_Overlay_StonePieces_01_Half_V_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_55" asset="ISO_Overlay_StonePieces_01_Half_V_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_56" asset="ISO_Overlay_StonePieces_02_Half_H_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_57" asset="ISO_Overlay_StonePieces_02_Half_H_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_58" asset="ISO_Overlay_StonePieces_02_Half_V_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_overlay_59" asset="ISO_Overlay_StonePieces_02_Half_V_02.png" cube="true" pivotX="0" pivotY="0" />
+		</Category>
+		<Category name="c_sand">
+			<Item id="i_sand_1" asset="ISO_Tile_Sand_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_sand_2" asset="ISO_Tile_Sand_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_sand_3" asset="ISO_Tile_Sand_03.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_sand_4" asset="ISO_Tile_Sand_04.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_sand_5" asset="ISO_Tile_Sand_01_ToStone_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_sand_6" asset="ISO_Tile_Sand_01_ToStone_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_sand_7" asset="ISO_Tile_Sand_02_ToStone_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_sand_8" asset="ISO_Tile_Sand_02_ToStone_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_sand_9" asset="ISO_Tile_Sand_03_ToStone_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_sand_10" asset="ISO_Tile_Sand_03_ToStone_02.png" cube="true" pivotX="0" pivotY="0" />
+		</Category>
+		<Category name="c_snow">
+			<Item id="i_snow_1" asset="ISO_Tile_Snow_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_snow_2" asset="ISO_Tile_Snow_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_snow_3" asset="ISO_Tile_Snow_01_ToStone_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_snow_4" asset="ISO_Tile_Snow_01_ToStone_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_snow_5" asset="ISO_Tile_Snow_02_ToStone_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_snow_6" asset="ISO_Tile_Snow_02_ToStone_02.png" cube="true" pivotX="0" pivotY="0" />
+		</Category>
+		<Category name="c_stair">
+			<Item id="i_stair_1" asset="ISO_Prop_Stair_Stone_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_stair_2" asset="ISO_Prop_Stair_Stone_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_stair_3" asset="ISO_Prop_Stair_Stone_03.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_stair_4" asset="ISO_Prop_Stair_Stone_04.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_stair_5" asset="ISO_Prop_Stair_Stone_05.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_stair_6" asset="ISO_Prop_Stair_Stone_06.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_stair_7" asset="ISO_Prop_Stair_Stone_07.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_stair_8" asset="ISO_Prop_Stair_Stone_08.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_stair_9" asset="ISO_Prop_Stair_Stone_09.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_stair_10" asset="ISO_Prop_Stair_Stone_10.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_stair_11" asset="ISO_Prop_Stair_Stone_11.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_stair_12" asset="ISO_Prop_Stair_Stone_12.png" cube="true" pivotX="0" pivotY="0" />
+		</Category>
+		<Category name="c_stone">
+			<Item id="i_stone_1" asset="ISO_Tile_Riverbed_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_stone_2" asset="ISO_Tile_Riverbed_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_stone_3" asset="ISO_Tile_Riverbed_03.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_stone_4" asset="ISO_Tile_Riverbed_04.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_stone_5" asset="ISO_Tile_Stone_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_stone_6" asset="ISO_Tile_Stone_03.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_stone_7" asset="ISO_Tile_Stone_02.png" cube="true" pivotX="0" pivotY="0" />
+		</Category>
+		<Category name="c_water">
+			<Item id="i_water_1" asset="ISO_Tile_Water_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_2" asset="ISO_Tile_Water_Shore_1C_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_3" asset="ISO_Tile_Water_Shore_1C_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_4" asset="ISO_Tile_Water_Shore_1C_03.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_5" asset="ISO_Tile_Water_Shore_1C_04.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_6" asset="ISO_Tile_Water_Shore_1S_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_7" asset="ISO_Tile_Water_Shore_1S_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_8" asset="ISO_Tile_Water_Shore_1S_03.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_9" asset="ISO_Tile_Water_Shore_1S_04.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_10" asset="ISO_Tile_Water_Shore_1S1C_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_11" asset="ISO_Tile_Water_Shore_1S1C_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_12" asset="ISO_Tile_Water_Shore_1S1C_03.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_13" asset="ISO_Tile_Water_Shore_1S1C_04.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_14" asset="ISO_Tile_Water_Shore_1S1C_05.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_15" asset="ISO_Tile_Water_Shore_1S1C_06.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_16" asset="ISO_Tile_Water_Shore_1S1C_07.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_17" asset="ISO_Tile_Water_Shore_1S1C_08.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_18" asset="ISO_Tile_Water_Shore_1S2C_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_19" asset="ISO_Tile_Water_Shore_1S2C_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_20" asset="ISO_Tile_Water_Shore_1S2C_03.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_21" asset="ISO_Tile_Water_Shore_1S2C_04.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_22" asset="ISO_Tile_Water_Shore_2C_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_23" asset="ISO_Tile_Water_Shore_2C_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_24" asset="ISO_Tile_Water_Shore_2C_03.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_25" asset="ISO_Tile_Water_Shore_2C_04.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_26" asset="ISO_Tile_Water_Shore_2C_05.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_27" asset="ISO_Tile_Water_Shore_2C_06.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_28" asset="ISO_Tile_Water_Shore_2S_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_29" asset="ISO_Tile_Water_Shore_2S_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_30" asset="ISO_Tile_Water_Shore_2S_03.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_31" asset="ISO_Tile_Water_Shore_2S_04.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_32" asset="ISO_Tile_Water_Shore_2S_05.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_33" asset="ISO_Tile_Water_Shore_2S_06.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_34" asset="ISO_Tile_Water_Shore_2S1C_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_35" asset="ISO_Tile_Water_Shore_2S1C_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_36" asset="ISO_Tile_Water_Shore_2S1C_03.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_37" asset="ISO_Tile_Water_Shore_2S1C_04.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_38" asset="ISO_Tile_Water_Shore_3C_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_39" asset="ISO_Tile_Water_Shore_3C_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_40" asset="ISO_Tile_Water_Shore_3C_03.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_41" asset="ISO_Tile_Water_Shore_3C_04.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_42" asset="ISO_Tile_Water_Shore_3S_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_43" asset="ISO_Tile_Water_Shore_3S_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_44" asset="ISO_Tile_Water_Shore_3S_03.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_45" asset="ISO_Tile_Water_Shore_3S_04.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_46" asset="ISO_Tile_Water_Shore_4C_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_water_47" asset="ISO_Tile_Water_Shore_4S_04.png" cube="true" pivotX="0" pivotY="0" />
+		</Category>
+		<Category name="c_wood">
+			<Item id="i_wood_1" asset="ISO_Tile_Wood_01.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_wood_2" asset="ISO_Tile_Wood_02.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_wood_3" asset="ISO_Tile_Wood_03.png" cube="true" pivotX="0" pivotY="0" />
+			<Item id="i_wood_4" asset="ISO_Tile_Wood_04.png" cube="true" pivotX="0" pivotY="0" />
 		</Category>
 	</Library>
-	<MAP id="tutorial1">
-	</MAP>
+	<Tile>
+		<Block id="b_grass" type="normal">
+			<Item id="i_grass_1" tag="" depth="0"/>
+		</Block>
+		<Block id="b_water" type="link">
+		</Block>
+		<Block id="b_road" type="link">
+		</Block>
+		<Block id="b_stair_1" type="dir">
+		</Block>
+		<Block id="b_stair_2" type="dir">
+		</Block>
+		<Block id="b_stair_3" type="dir">
+		</Block>
+	</Tile>
+	<Tutorial>
+		<MAP id="tutorial_1">
+		</MAP>
+	</Tutorial>
 </Config>
