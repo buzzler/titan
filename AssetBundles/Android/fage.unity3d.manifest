@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3078278344
+CRC: 3031623990
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 45fa797b6b13764c15a6b67850e96eb8
+    Hash: 166b080e0528a957991ac69058200a2e
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 81095895fceaf4427fb0533c0c7547bf
+    Hash: 8466d9f5a7dd776f138d5737e5fb7e92
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -17,12 +17,16 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 48
   Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 - Class: 114
   Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: af7ba8f995a104fb3879eca37cb5a264, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5283336fcd1764413881ef6d6446060c, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -36,4 +40,5 @@ ClassTypes:
 Assets:
 - Assets/Bundle/Prefab/blackout.prefab
 - Assets/Bundle/Prefab/whiteout.prefab
+- Assets/Bundle/Prefab/UIInitializer.prefab
 Dependencies: []

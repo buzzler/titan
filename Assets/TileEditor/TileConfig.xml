@@ -227,24 +227,297 @@
 			<Item id="i_wood_3" asset="ISO_Tile_Wood_03.png" cube="true" pivotX="0" pivotY="0" />
 			<Item id="i_wood_4" asset="ISO_Tile_Wood_04.png" cube="true" pivotX="0" pivotY="0" />
 		</Category>
+		<Simple id="t_grasspath">
+			<None item="i_grass_18"/>
+			<U item="i_grass_15"/>
+			<D item="i_grass_14"/>
+			<L item="i_grass_17"/>
+			<R item="i_grass_16"/>
+			<UD item="i_grass_20"/>
+			<UL item="i_grass_13"/>
+			<UR item="i_grass_10"/>
+			<DL item="i_grass_12"/>
+			<DR item="i_grass_11"/>
+			<LR item="i_grass_19"/>
+			<UDL item="i_grass_6"/>
+			<UDR item="i_grass_5"/>
+			<ULR item="i_grass_7"/>
+			<DLR item="i_grass_8"/>
+			<UDLR item="i_grass_9"/>
+		</Simple>
+		<Complex id="t_water_ex">
+			<None item="i_water_1"/>
+			<U_1C item="i_water_1">
+				<Child item="i_overlay_45"/>
+			</U_1C>
+			<D_1C item="i_water_1">
+				<Child item="i_overlay_41"/>
+			</D_1C>
+			<L_1C item="i_water_1">
+				<Child item="i_overlay_42"/>
+			</L_1C>
+			<R_1C item="i_water_1">
+				<Child item="i_overlay_43"/>
+			</R_1C>
+			<U_1S item="i_water_1">
+				<Child item="i_overlay_49"/>
+			</U_1S>
+			<D_1S item="i_water_1">
+				<Child item="i_overlay_46"/>
+			</D_1S>
+			<L_1S item="i_water_1">
+				<Child item="i_overlay_47"/>
+			</L_1S>
+			<R_1S item="i_water_1">
+				<Child item="i_overlay_48"/>
+			</R_1S>
+			<LU_1C1S item="i_water_1">
+				<Child item="i_overlay_42"/>
+				<Child item="i_overlay_49"/>
+			</LU_1C1S>
+			<DU_1C1S item="i_water_1">
+				<Child item="i_overlay_41"/>
+				<Child item="i_overlay_49"/>
+			</DU_1C1S>
+			<RD_1C1S item="i_water_1">
+				<Child item="i_overlay_43"/>
+				<Child item="i_overlay_46"/>
+			</RD_1C1S>
+			<UD_1C1S item="i_water_1">
+				<Child item="i_overlay_45"/>
+				<Child item="i_overlay_46"/>
+			</UD_1C1S>
+			<RL_1C1S item="i_water_1">
+				<Child item="i_overlay_43"/>
+				<Child item="i_overlay_47"/>
+			</RL_1C1S>
+			<DL_1C1S item="i_water_1">
+				<Child item="i_overlay_41"/>
+				<Child item="i_overlay_47"/>
+			</DL_1C1S>
+			<LR_1C1S item="i_water_1">
+				<Child item="i_overlay_42"/>
+				<Child item="i_overlay_48"/>
+			</LR_1C1S>
+			<UR_1C1S item="i_water_1">
+				<Child item="i_overlay_45"/>
+				<Child item="i_overlay_48"/>
+			</UR_1C1S>
+			<DLU_2C1S item="i_water_1">
+				<Child item="i_overlay_41"/>
+				<Child item="i_overlay_42"/>
+				<Child item="i_overlay_49"/>
+			</DLU_2C1S>
+			<URD_2C1S item="i_water_1">
+				<Child item="i_overlay_45"/>
+				<Child item="i_overlay_43"/>
+				<Child item="i_overlay_46"/>
+			</URD_2C1S>
+			<DRL_2C1S item="i_water_1">
+				<Child item="i_overlay_41"/>
+				<Child item="i_overlay_43"/>
+				<Child item="i_overlay_47"/>
+			</DRL_2C1S>
+			<ULR_2C1S item="i_water_1">
+				<Child item="i_overlay_45"/>
+				<Child item="i_overlay_42"/>
+				<Child item="i_overlay_48"/>
+			</ULR_2C1S>
+			<DL_2C item="i_water_1">
+				<Child item="i_overlay_41"/>
+				<Child item="i_overlay_42"/>
+			</DL_2C>
+			<UR_2C item="i_water_1">
+				<Child item="i_overlay_45"/>
+				<Child item="i_overlay_43"/>
+			</UR_2C>
+			<UD_2C item="i_water_1">
+				<Child item="i_overlay_45"/>
+				<Child item="i_overlay_41"/>
+			</UD_2C>
+			<LR_2C item="i_water_1">
+				<Child item="i_overlay_42"/>
+				<Child item="i_overlay_43"/>
+			</LR_2C>
+			<UL_2C item="i_water_1">
+				<Child item="i_overlay_45"/>
+				<Child item="i_overlay_42"/>
+			</UL_2C>
+			<DR_2C item="i_water_1">
+				<Child item="i_overlay_41"/>
+				<Child item="i_overlay_43"/>
+			</DR_2C>
+			<UR_2S item="i_water_1">
+				<Child item="i_overlay_49"/>
+				<Child item="i_overlay_48"/>
+			</UR_2S>
+			<DR_2S item="i_water_1">
+				<Child item="i_overlay_46"/>
+				<Child item="i_overlay_48"/>
+			</DR_2S>
+			<DL_2S item="i_water_1">
+				<Child item="i_overlay_46"/>
+				<Child item="i_overlay_47"/>
+			</DL_2S>
+			<UL_2S item="i_water_1">
+				<Child item="i_overlay_49"/>
+				<Child item="i_overlay_47"/>
+			</UL_2S>
+			<UD_2S item="i_water_1">
+				<Child item="i_overlay_49"/>
+				<Child item="i_overlay_46"/>
+			</UD_2S>
+			<LR_2S item="i_water_1">
+				<Child item="i_overlay_47"/>
+				<Child item="i_overlay_48"/>
+			</LR_2S>
+			<UDR_1C2S item="i_water_1">
+				<Child item="i_overlay_45"/>
+				<Child item="i_overlay_46"/>
+				<Child item="i_overlay_48"/>
+			</UDR_1C2S>
+			<RDL_1C2S item="i_water_1">
+				<Child item="i_overlay_43"/>
+				<Child item="i_overlay_46"/>
+				<Child item="i_overlay_47"/>
+			</RDL_1C2S>
+			<DUL_1C2S item="i_water_1">
+				<Child item="i_overlay_41"/>
+				<Child item="i_overlay_49"/>
+				<Child item="i_overlay_47"/>
+			</DUL_1C2S>
+			<LUR_1C2S item="i_water_1">
+				<Child item="i_overlay_42"/>
+				<Child item="i_overlay_49"/>
+				<Child item="i_overlay_48"/>
+			</LUR_1C2S>
+			<DLR_3C item="i_water_1">
+				<Child item="i_overlay_41"/>
+				<Child item="i_overlay_42"/>
+				<Child item="i_overlay_43"/>
+			</DLR_3C>
+			<UDR_3C item="i_water_1">
+				<Child item="i_overlay_45"/>
+				<Child item="i_overlay_41"/>
+				<Child item="i_overlay_43"/>
+			</UDR_3C>
+			<UDL_3C item="i_water_1">
+				<Child item="i_overlay_45"/>
+				<Child item="i_overlay_41"/>
+				<Child item="i_overlay_42"/>
+			</UDL_3C>
+			<ULR_3C item="i_water_1">
+				<Child item="i_overlay_45"/>
+				<Child item="i_overlay_42"/>
+				<Child item="i_overlay_43"/>
+			</ULR_3C>
+			<DLR_3S item="i_water_1">
+				<Child item="i_overlay_41"/>
+				<Child item="i_overlay_42"/>
+				<Child item="i_overlay_43"/>
+			</DLR_3S>
+			<ULR_3S item="i_water_1">
+				<Child item="i_overlay_49"/>
+				<Child item="i_overlay_47"/>
+				<Child item="i_overlay_48"/>
+			</ULR_3S>
+			<UDR_3S item="i_water_1">
+				<Child item="i_overlay_49"/>
+				<Child item="i_overlay_46"/>
+				<Child item="i_overlay_48"/>
+			</UDR_3S>
+			<UDL_3S item="i_water_1">
+				<Child item="i_overlay_49"/>
+				<Child item="i_overlay_46"/>
+				<Child item="i_overlay_47"/>
+			</UDL_3S>
+			<UDLR_4C item="i_water_1">
+				<Child item="i_overlay_45"/>
+				<Child item="i_overlay_41"/>
+				<Child item="i_overlay_42"/>
+				<Child item="i_overlay_43"/>
+			</UDLR_4C>
+			<UDLR_4S item="i_water_1">
+				<Child item="i_overlay_49"/>
+				<Child item="i_overlay_46"/>
+				<Child item="i_overlay_47"/>
+				<Child item="i_overlay_48"/>
+			</UDLR_4S>
+		</Complex>
+		<Complex id="t_water">
+			<None item="i_water_1"/>
+			<U_1C item="i_water_5"/>
+			<D_1C item="i_water_2"/>
+			<L_1C item="i_water_4"/>
+			<R_1C item="i_water_3"/>
+			<U_1S item="i_water_7"/>
+			<D_1S item="i_water_6"/>
+			<L_1S item="i_water_8"/>
+			<R_1S item="i_water_9"/>
+			<LU_1C1S item="i_water_10"/>
+			<DU_1C1S item="i_water_11"/>
+			<RD_1C1S item="i_water_12"/>
+			<UD_1C1S item="i_water_13"/>
+			<RL_1C1S item="i_water_14"/>
+			<DL_1C1S item="i_water_15"/>
+			<LR_1C1S item="i_water_16"/>
+			<UR_1C1S item="i_water_17"/>
+			<DLU_2C1S item="i_water_18"/>
+			<URD_2C1S item="i_water_19"/>
+			<DRL_2C1S item="i_water_20"/>
+			<ULR_2C1S item="i_water_21"/>
+			<DL_2C item="i_water_22"/>
+			<UR_2C item="i_water_23"/>
+			<UD_2C item="i_water_24"/>
+			<LR_2C item="i_water_25"/>
+			<UL_2C item="i_water_26"/>
+			<DR_2C item="i_water_27"/>
+			<UR_2S item="i_water_28"/>
+			<DR_2S item="i_water_29"/>
+			<DL_2S item="i_water_30"/>
+			<UL_2S item="i_water_31"/>
+			<UD_2S item="i_water_32"/>
+			<LR_2S item="i_water_33"/>
+			<UDR_1C2S item="i_water_34"/>
+			<RDL_1C2S item="i_water_35"/>
+			<DUL_1C2S item="i_water_36"/>
+			<LUR_1C2S item="i_water_37"/>
+			<DLR_3C item="i_water_38"/>
+			<UDR_3C item="i_water_39"/>
+			<UDL_3C item="i_water_40"/>
+			<ULR_3C item="i_water_41"/>
+			<DLR_3S item="i_water_42"/>
+			<ULR_3S item="i_water_43"/>
+			<UDR_3S item="i_water_44"/>
+			<UDL_3S item="i_water_45"/>
+			<UDLR_4C item="i_water_46"/>
+			<UDLR_4S item="i_water_47"/>
+		</Complex>
+		<Direction id="t_stair_1">
+			<U item="i_stair_9"/>
+			<D item="i_stair_10"/>
+			<L item="i_stair_11"/>
+			<R item="i_stair_12"/>
+		</Direction>
+		<Direction id="t_stair_2">
+			<U item="i_stair_2"/>
+			<D item="i_stair_3"/>
+			<L item="i_stair_1"/>
+			<R item="i_stair_4"/>
+		</Direction>
+		<Direction id="t_stair_3">
+			<U item="i_stair_5"/>
+			<D item="i_stair_7"/>
+			<L item="i_stair_8"/>
+			<R item="i_stair_6"/>
+		</Direction>
 	</Library>
-	<Tile>
-		<Block id="b_grass" type="normal">
-			<Item id="i_grass_1" tag="" depth="0"/>
-		</Block>
-		<Block id="b_water" type="link">
-		</Block>
-		<Block id="b_road" type="link">
-		</Block>
-		<Block id="b_stair_1" type="dir">
-		</Block>
-		<Block id="b_stair_2" type="dir">
-		</Block>
-		<Block id="b_stair_3" type="dir">
-		</Block>
-	</Tile>
 	<Tutorial>
-		<MAP id="tutorial_1">
-		</MAP>
+		<Map id="tutorial_1">
+			<Terrain asset="i_dirt_1" x="0" y="0" z="0"/>
+			<Terrain asset="i_dirt_1" x="1" y="0" z="0"/>
+			<Terrain asset="i_dirt_1" x="0" y="0" z="1"/>
+			<Terrain asset="i_dirt_1" x="1" y="0" z="1"/>
+		</Map>
 	</Tutorial>
 </Config>

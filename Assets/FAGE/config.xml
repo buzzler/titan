@@ -13,12 +13,14 @@
 	  <UIDetail id="UIOverlay_LP" asset="assets/bundle/prefab/uiOverlay.prefab" bundle="editor" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" scaleX="1" scaleY="1" scaleZ="1" onInstantiate="trans.popin" onDestroy="trans.popout" onResume="trans.popin" onPause="trans.popout" onSwitchIn="trans.popin" onSwitchOut="trans.popout" />
 	  <UIDetail id="UITerrain_LP" asset="assets/bundle/prefab/uiTerrain.prefab" bundle="editor" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" scaleX="1" scaleY="1" scaleZ="1" onInstantiate="trans.popin" onDestroy="trans.popout" onResume="trans.popin" onPause="trans.popout" onSwitchIn="trans.popin" onSwitchOut="trans.popout" />
 	  <UIDetail id="UIView_LP" asset="assets/bundle/prefab/uiView.prefab" bundle="editor" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" scaleX="1" scaleY="1" scaleZ="1" onInstantiate="trans.popin" onDestroy="trans.popout" onResume="trans.popin" onPause="trans.popout" onSwitchIn="trans.popin" onSwitchOut="trans.popout" />
+	  <UIDetail id="UIInitializer_LP" asset="assets/bundle/prefab/uiInitializer.prefab" bundle="fage" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" scaleX="1" scaleY="1" scaleZ="1" onInstantiate="trans.popin" onDestroy="trans.popout" onResume="trans.popin" onPause="trans.popout" onSwitchIn="trans.popin" onSwitchOut="trans.popout" />
 	  <UISet id="UIToolbar" onPortrait="UIToolbar_LP" onLandscape="UIToolbar_LP" />
 	  <UISet id="UINew" onPortrait="UINew_LP" onLandscape="UINew_LP" />
 	  <UISet id="UITile" onPortrait="UITile_LP" onLandscape="UITile_LP" />
 	  <UISet id="UIOverlay" onPortrait="UIOverlay_LP" onLandscape="UIOverlay_LP" />
 	  <UISet id="UITerrain" onPortrait="UITerrain_LP" onLandscape="UITerrain_LP" />
 	  <UISet id="UIView" onPortrait="UIView_LP" onLandscape="UIView_LP" />
+	  <UISet id="UIInitializer" onPortrait="UIInitializer_LP" onLandscape="UIInitializer_LP" />
 	  <UICurtain id="blackout" asset="assets/bundle/prefab/blackout.prefab" bundle="fage" />
 	  <UICurtain id="whiteout" asset="assets/bundle/prefab/whiteout.prefab" bundle="fage" />
 	</UIRoot>
